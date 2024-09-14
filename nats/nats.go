@@ -45,7 +45,7 @@ func Subscribe(ctx context.Context, req *dto.Request) {
 		fmt.Println("Nats Connection Error:", err)
 		return
 	}
-	defer nc.Close()
+	//defer nc.Close()
 
 	if _, err := nc.Subscribe(req.Topic, func(msg *im.Msg) {
 		res, deerr := Decode(msg.Data)
