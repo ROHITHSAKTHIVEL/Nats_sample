@@ -1,4 +1,4 @@
-module project
+module github.com/ROHITHSAKTHIVEL/Nats_sample
 
 go 1.21.0
 

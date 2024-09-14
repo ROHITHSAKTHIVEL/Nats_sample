@@ -5,7 +5,7 @@ import (
 	"encoding/json"
 	"errors"
 	"fmt"
-	"project/dto"
+	"github.com/ROHITHSAKTHIVEL/Nats_sample/dto"
 
 	im "github.com/nats-io/nats.go"
 )
